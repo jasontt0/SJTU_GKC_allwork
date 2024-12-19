@@ -1,0 +1,11 @@
+--cpu=Cortex-M4.fp
+".\exp3_3.o"
+".\tm1638.o"
+".\uartstdio.o"
+"F:\Software_downloads\for_Keil_5\TivaWare_C_Series-2.1.4.178\driverlib\rvmdk\driverlib.lib"
+".\startup_tm4c129.o"
+".\system_tm4c129.o"
+--strict --scatter ".\exp3_3.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\exp3_3.map" -o .\exp3_3.axf
